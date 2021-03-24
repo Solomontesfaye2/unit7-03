@@ -5,7 +5,7 @@ document.getElementById('button')
 
 function enter () {
   input = document.getElementById('input').value
-  if(input >=17) {
+  if (input >= 17) {
     alert('you can watch any movie')
   } else if (input >= 13) {
     alert('ypu can watch a pg 13 movie')
@@ -14,4 +14,4 @@ function enter () {
   } else {
     alert('you can not watch this movie because you are too young')
   }
- }
+}
